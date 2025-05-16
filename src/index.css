@@ -49,6 +49,23 @@
   overflow: hidden;
   margin-bottom: 0px;
 }
+
+.contactimg{
+  margin: 0px, 0px, 0px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 217, 28);
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.contactimg img {
+  height: 280px;
+  width: 190px;
+  margin-top: -20px;
+}
+
 .img-thumbnail {
   width: 200px; 
   height: 200px; 
@@ -122,6 +139,11 @@
   color: #ffcc00;
 }
 
+.projectCard h4 {
+  background-color: white;
+  font-weight: bold;
+}
+
 .textContent {
   background-color: white;
 }
@@ -150,10 +172,26 @@
 }
 
 .projectImage {
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 15px;
   flex-shrink: 0;
+}
+
+.link {
+  color: #000000;
+}
+
+.projectButtonLink {
+  background-color: white;
+}
+
+.nav {
+  background-color: #f8f8f3;
+}
+
+.nav a {
+  background-color: #f8f8f3;
 }
 
 

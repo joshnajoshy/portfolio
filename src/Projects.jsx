@@ -12,14 +12,14 @@ function Projects() {
             Our team built an app that lets users upload their PDF study notes. 
             The app then creates quizzes based on the content, helping users review and test their knowledge.
           </p>
-          <h6>Backend Tech Stack:</h6>
+          <a href="https://github.com/emerrafter1/study-buddAI-BE" target="_blank" className='link'><h6>Backend Tech Stack:</h6></a>
             <li>Typescript</li>
             <li>Express.js</li>
             <li>MySQL</li>
             <li>Gemini API</li>
             <li>Jest</li>
             <br></br>
-            <h6>Frontend Tech Stack:</h6>
+            <a href="https://github.com/nimashakaranahala/study-buddAI-FE" target="_blank" className='link'><h6>Frontend Tech Stack:</h6></a>
             <li>React</li>
             <li>Vite</li>
             <li>HTML</li>
