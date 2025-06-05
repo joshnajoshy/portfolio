@@ -3,11 +3,13 @@ import Nav from './Nav'
 import ProjectList from './ProjectList';
 import Contact from './Contact'
 import { Route, Routes } from "react-router";
+import ParticleBackground from './ParticleBackground';
 
 function App() {
   return (
     <main>
       <Nav/>
+      <ParticleBackground/>
       <Routes>
         <Route path='/' element={<Header/>}/>
         <Route path='/projects' element={<ProjectList/>}/>
