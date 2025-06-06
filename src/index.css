@@ -1,211 +1,133 @@
-* {
-  background-color: #f8f8f3;
-  color: #000000;
-}
 
-.roleName {
-  background-color: white;
-}
-.name {
-  background-color: white;
-}
-.about {
-  background-color: white;
-}
-.card-title {
-  color: #000000;
-}
-.contentBorder {
-  background-color: white;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
-}
-.projectsContent {
-  background-color: white;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.imageContainer {
-  margin: 0px, 0px, 0px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 5px solid rgb(255, 217, 28);
-  overflow: hidden;
-  margin-bottom: 0px;
-}
-
-.contactimg{
-  margin: 0px, 0px, 0px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 5px solid rgb(255, 217, 28);
-  overflow: hidden;
-  margin-bottom: 0px;
-}
-
-.contactimg img {
-  height: 280px;
-  width: 190px;
-  margin-top: -20px;
-}
-
-.img-thumbnail {
-  width: 200px; 
-  height: 200px; 
-  border-radius: 50%;
-  overflow: hidden;
-  object-fit: cover;
-  border: none;
-  outline: none;
-  padding: 0px;
-}
-
-.yellowButton {
-  background-color: rgb(255, 217, 28);
-  color: #000000;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 50px; 
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin: 5px;
-}
-
-.yellowButton:hover {
-  background-color: #e6b800;
-}
-
-.buttonContainer {
-  background-color: white;
-}
-
-.transparentButton {
-  background-color: transparent;
-  border: 2px solid rgb(255, 217, 28);
-  color: rgb(255, 217, 28);
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 50px; 
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.transparentButton:hover {
-  background-color: #ffcc00;
-  color: white;
-}
-
-.name {
-  font-weight: bold;
-}
-.roleName {
-  color: rgb(255, 217, 28);
-}
-
-.projectCard {
-  background-color: white;
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.projectCard h5 {
-  background-color: white;
-  color: #ffcc00;
-}
-
-.projectCard h4 {
-  background-color: white;
-  font-weight: bold;
-}
-
-.textContent {
-  background-color: white;
-}
-
-.textContent h4 {
-  background-color: white;
-  color: #000000;
-  font-weight: bold;
-}
-
-.textContent p,h6,li  {
-  background-color: white;
-}
-
-.projectsContent {
+.typing-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  gap: 3rem;
+  text-align: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
-.textContent {
+
+.typing-left, .typing-right {
   flex: 1;
-}
-
-.projectImage {
+  min-width: 300px;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.typing-subtitle {
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+
+.animate-typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid white;
+  padding-right: 1rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: white;
+  width: 38ch;
+  animation: typing 3s steps(38) 1s 1 normal both, blink 0.7s infinite;
+  margin-bottom: 1.5rem;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-button {
+  background-color: #0A66C2;
+}
+.linkedin-button:hover {
+  background-color: #000;
+}
+
+.github-button {
+  background-color: #333;
+}
+.github-button:hover {
+  background-color: #000;
+}
+
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  border-radius: 15px;
-  flex-shrink: 0;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-.link {
-  color: #000000;
-}
-
-.projectButtonLink {
-  background-color: white;
-}
-
-.nav {
-  background-color: #f8f8f3;
-}
-
-.nav a {
-  background-color: #f8f8f3;
+.skills{
+  position: relative;
+  z-index: 1;
+  color: white; 
+  text-align: center;
+  padding-top: 100px;
 }
 
 
 
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (max-width: 768px) {
+  .typing-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
   }
-  a:hover {
-    color: #747bff;
+
+  .animate-typing {
+    font-size: 1.8rem;
+    width: 100%;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .profile-image {
+    max-width: 250px;
+  }
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 38ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
 }
