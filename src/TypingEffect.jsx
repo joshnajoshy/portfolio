@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./index.css";
 import profileImage from "../src/assets/joshna.jpeg"; 

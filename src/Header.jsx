@@ -1,5 +1,4 @@
 import ImgCard from "./ImgCard";
-import ProjectList from "./ProjectList";
 import { Link } from "react-router";
 import Projects from './Projects'
 

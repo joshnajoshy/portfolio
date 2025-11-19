@@ -1,20 +1,43 @@
+function Nav() {
+  return (
+    <nav
+      className="navbar navbar-expand-lg nav-transparent fixed-top"
+      style={{ padding: "10px 20px" }}
+    >
+      <a className="navbar-brand text-white fw-bold" href="#home">
+        My Portfolio
+      </a>
 
-function Nav () {
-return (
-      <nav id="navbar-example2" className="navbar bg-dark navbar-dark px-3 mb-3 fixed-top">
-        <ul className="nav nav-pills">
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul className="navbar-nav">
+
           <li className="nav-item">
-            <a className="nav-link" href="#scrollspyHeading1">Home</a>
+            <a className="nav-link text-white" href="#skills">Skills</a>
           </li>
+
           <li className="nav-item">
-            <a className="nav-link" href="#scrollspyHeading2">Projects</a>
+            <a className="nav-link text-white" href="#projects">Projects</a>
           </li>
-          <li className="nav-item dropdown">
-          <a className="nav-link" href="#scrollspyHeading2">Contact Me</a>
+
+          <li className="nav-item">
+            <a className="nav-link text-white" href="#contact">Contact Me</a>
           </li>
         </ul>
-      </nav>
-)
+      </div>
+    </nav>
+  );
 }
 
 export default Nav;
+
+
+
